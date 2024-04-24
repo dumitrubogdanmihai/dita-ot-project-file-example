@@ -1,38 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd"> 
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "map.dtd"> 
 <subjectScheme>
     <subjectHead>
         <subjectHeadMeta>
-            <navtitle>
-                <!-- Enter a description of the subject scheme. -->
-            </navtitle>
+            <navtitle>Phone Guide User Manual Controlled Values list</navtitle>
         </subjectHeadMeta>
     </subjectHead>
     <hasInstance>
         <subjectdef keys="productSbjKey">
-            <!-- A tree of related values -->
-            <subjectdef keys="value1">
+            <subjectdef keys="X2000">
                 <topicmeta>
-                    <navtitle>First level value</navtitle>
+                    <navtitle>X2000 Phone Guide</navtitle>
                 </topicmeta>
-
-                <subjectdef keys="value21">
-                    <topicmeta>
-                        <navtitle>Second level value</navtitle>
-                    </topicmeta>
-                </subjectdef>
-
-                <subjectdef keys="value22">
-                    <topicmeta>
-                        <navtitle>Second level value</navtitle>
-                    </topicmeta>
-                </subjectdef>
+            </subjectdef>
+            <subjectdef keys="X1000">
+                <topicmeta>
+                    <navtitle>X1000 Phone Guide</navtitle>
+                </topicmeta>
+            </subjectdef>
+        </subjectdef>
+        <subjectdef keys="audienceSbjKey">
+            <subjectdef keys="support">
+                <topicmeta>
+                    <navtitle>Support Specialist</navtitle>
+                </topicmeta>
+            </subjectdef>
+            <subjectdef keys="BasicUser">
+                <topicmeta>
+                    <navtitle>Basic User Level</navtitle>
+                </topicmeta>
             </subjectdef>
         </subjectdef>
     </hasInstance>
     <enumerationdef>
-        <!-- Bind an attribute to a tree of related values -->
-        <attributedef name="name"/>
+        <attributedef name="product"/>
+        <subjectdef keyref="productSbjKey"/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="audience"/>
+        <subjectdef keyref="audienceSbjKey"/>
+    </enumerationdef>
+    <!--Reject all possible values for other profiling attributes-->
+    <enumerationdef>
+        <attributedef name="platform"/>
+        <subjectdef/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="props"/>
+        <subjectdef/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="otherprops"/>
+        <subjectdef/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="rev"/>
         <subjectdef/>
     </enumerationdef>
 </subjectScheme>
