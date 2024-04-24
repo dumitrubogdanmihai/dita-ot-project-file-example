@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_bbn_4jn_2bc">
-    <title></title>
+    <title>Troubleshoot Connection</title>
     <body>
-        <p></p>
+        <p>If you have poor connection please check the signal level under Connecrtion menu. You
+            should have at least one line.</p>
     </body>
 </topic>
