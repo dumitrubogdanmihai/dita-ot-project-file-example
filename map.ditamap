@@ -2,5 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Military Phone X1000</title>
-    <topicref href="topic-troublesoot.dita"/>
+    <topicref href="topic-troublesoot.dita">
+        <topicref href="subject-scheme.ditamap" type="subjectScheme" format="ditamap"/>
+    </topicref>
 </map>
