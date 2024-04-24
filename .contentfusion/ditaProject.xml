@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="https://www.dita-ot.org/project">
+    <context id="agSaoqebjmkmCZx" name="For Support">
+        <input href="../map.ditamap"/>
+        <profile>
+            <ditaval href="../filter-for-support.ditaval"/>
+        </profile>
+    </context>
+</project>
