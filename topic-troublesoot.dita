@@ -5,7 +5,7 @@
     <body>
         <p>If you have poor connection please check the signal level under Connecrtion menu. You
             should have at least one line.</p>
-        <section id="section_ywh_xjn_2bc">
+        <section id="section_ywh_xjn_2bc" audience="support">
             <title>Advanced Troubleshoot</title>
             <p>To see the exact amount of signal see the Advanced secret menu and Connection Details
                 section. It should be over 122 dbmv.</p>
