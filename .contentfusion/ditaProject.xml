@@ -12,4 +12,10 @@
             <ditaval href="../filter-for-support.ditaval"/>
         </profile>
     </context>
+    <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="d-For_User_Deliverable-1714029330884" name="For User Deliverable">
+        <context idref="LwESwxjbwvHZfoB"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
 </project>
